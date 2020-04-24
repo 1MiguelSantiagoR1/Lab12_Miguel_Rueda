@@ -34,7 +34,9 @@ print("Las semanas con datos mayores al promedio fue: ",lista1)
 print("las semanas con datos menor al promedio fue: ",lista2)
 print("")
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
--
+#5
+La diferencia se debe al punto de equilibrio que se presenta en las variables de control
+de (presion y temperatura),haciendo casa 16 semanas una recalibracion  en el dispositivo
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #6.1
@@ -86,7 +88,7 @@ Desviacion_estandar3 = statistics.stdev(lista_temp_menor)
 print("La desviacion de los datos mayores al promedio fue: ",Desviacion_estandar2)
 -------------------------------------------------------------------------------------------------------------------
 #6.5
-promedio_desviaciones = (desviacion_estandar2 + Desviacion_estandar3)/2
+promedio_desviaciones = (Desviacion_estandar2 + Desviacion_estandar3)/2
 --------------------------------------------------------------------------------------------------------------------------------------
 
 
